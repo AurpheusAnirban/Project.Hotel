@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58881" started-at="2017-01-10T00:51:34Z" finished-at="2017-01-10T00:52:33Z">
+    <groups>
+    </groups>
+    <test name="ChromeTests" duration-ms="58881" started-at="2017-01-10T00:51:34Z" finished-at="2017-01-10T00:52:33Z">
+      <class name="hotel.com.project.hotel.PackageAndFlightTest">
+        <test-method status="PASS" signature="setBrowser(java.lang.String)[pri:0, instance:hotel.com.project.hotel.PackageAndFlightTest@59b65dce]" name="setBrowser" is-config="true" duration-ms="10389" started-at="2017-01-09T19:51:34Z" finished-at="2017-01-09T19:51:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="NavigateToPage(java.lang.String)[pri:0, instance:hotel.com.project.hotel.PackageAndFlightTest@59b65dce]" name="NavigateToPage" is-config="true" duration-ms="5392" started-at="2017-01-09T19:51:45Z" finished-at="2017-01-09T19:51:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToPage -->
+        <test-method status="PASS" signature="TA110()[pri:0, instance:hotel.com.project.hotel.PackageAndFlightTest@59b65dce]" name="TA110" duration-ms="30489" started-at="2017-01-09T19:51:50Z" finished-at="2017-01-09T19:52:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TA110 -->
+        <test-method status="PASS" signature="NavigateToHomePage()[pri:0, instance:hotel.com.project.hotel.PackageAndFlightTest@59b65dce]" name="NavigateToHomePage" is-config="true" duration-ms="8785" started-at="2017-01-09T19:52:21Z" finished-at="2017-01-09T19:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToHomePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hotel.com.project.hotel.PackageAndFlightTest@59b65dce]" name="tearDown" is-config="true" duration-ms="3747" started-at="2017-01-09T19:52:29Z" finished-at="2017-01-09T19:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hotel.com.project.hotel.PackageAndFlightTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- Suite -->
+</testng-results>

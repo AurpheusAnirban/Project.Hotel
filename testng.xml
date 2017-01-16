@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+ <!-- <test name="FirefoxTests">
+  <parameter name="browserName" value="firefox"/>
+    <classes>
+    <class name="com.hotelsTest.hotels.comTest.sample"/>
+    </classes>
+  </test>  Test -->
+  
+  <test name="ChromeTests">
+  <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="hotel.com.project.hotel.PackageAndFlightTest"/>
+    </classes>
+  </test> 
+ 
+<!--  <test name="IETests">
+   <parameter name="browserName" value="IE"/>
+    <classes>
+    <class name="com.hotelsTest.hotels.comTest.sample"/>
+    </classes>
+  </test>  Test -->
+  
+<!--<test name="SauceLabsTests">
+   <parameter name="browserName" value="saucelabs"/>
+    <classes>
+    <class name="com.hotelsTest.hotels.comTest.sample"/>
+    </classes>
+  </test>  Test -->
+</suite> <!-- Suite -->

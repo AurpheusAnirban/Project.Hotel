@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <test name="ChromeTests(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="hotel.com.project.hotel.PackageAndFlightTest">
+        <methods>
+          <include name="setBrowser"/>
+          <include name="TA110"/>
+          <include name="NavigateToHomePage"/>
+          <include name="tearDown"/>
+          <include name="NavigateToPage"/>
+        </methods>
+      </class> <!-- hotel.com.project.hotel.PackageAndFlightTest -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->
